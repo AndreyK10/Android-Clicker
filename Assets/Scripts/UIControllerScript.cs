@@ -4,7 +4,7 @@ using TMPro;
 
 public class UIControllerScript : MonoBehaviour
 {
-    public TextMeshProUGUI playerResourcesText, buyStationText, upgradeToolText, stationInfoText, toolInfoText;
+    [SerializeField] private TextMeshProUGUI playerResourcesText, buyStationText, upgradeToolText, stationInfoText, toolInfoText;
 
     void Update()
     {
